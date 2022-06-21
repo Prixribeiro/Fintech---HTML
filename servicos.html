@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <title>Eu Patroa - Serviços Contratados</title>
+    <link rel="stylesheet" type="text/css" href="./Assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="./Assets/css/home.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="./Assets/imagens/logo-eupatroa.png" />
+  </head>
+
+  <body>
+    <nav class="navbar fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./home.html">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+                <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+            </svg> 
+        </a>
+        <a class="nav-link" href="./servicos.html">SERVIÇOS CONTRATADOS</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Tá boa patroa?</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Dashboard</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Investimentos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Relatórios</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Cadastrar
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                  <li><a class="dropdown-item" href="#">Cadastrar Conta Bancária</a></li>
+                  <li><a class="dropdown-item" href="#">Cadastrar Entradas</a></li>
+                  <li><a class="dropdown-item" href="./saidas.html">Cadastrar Saídas</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="./servicos.html">Consultar Serviços contratados</a></li>
+                </ul>
+              </li>
+          </div>
+          <button type="button" class="btn-close" aria-label="Close">Sair</button>
+        </div>
+      </div>
+    </nav>
+    <main>
+        <div class="container-fluid my-5 py-3">
+            <table class=" table table-responsive w-100 h-auto text-center shadow p-3 mb-5 bg-body rounded">
+                <thead class="table-light">
+                <tr>
+                    <th class="col-md-4 text-dark">ITEM</th>
+                    <th class="col-md-4 text-dark">VALOR MÊS</th>
+                    <th class="col-md-4 text-dark ">INFORMAÇÕES</th>
+                </tr>
+                </thead>
+                <tbody class="table-group-divider text-dark">
+                <tr>
+                    <td class="col-md-4 text-dark">Seguro Cartão</td>
+                    <td class="col-md-4 text-dark">R$ 10,00</td>
+                    <td class="col-md-4 text-dark">Contratado em 10/07/2021</td>
+                </tr>
+                <tr>
+                    <td class="col-md-4 text-dark">LIS Conta</td>
+                    <td class="col-md-4  text-dark">R$ 22,50</td>
+                    <td class="col-md-4 text-dark">Recorrente desde 09/06/2003</td>
+                </tr>
+                <tr>
+                    <td class="col-md-4 text-dark">Cesta Produtos</td>
+                    <td class="col-md-4 text-dark">R$ 18,00</td>
+                    <td class="col-md-4 text-dark">Contratado em 19/02/2020</td>
+                </tr>
+                <tr>
+                    <td class="col-md-4 text-dark">Cesta Produtos</td>
+                    <td class="col-md-4 text-dark">R$ 18,00</td>
+                    <td class="col-md-4 text-dark">Contratado em 19/02/2020</td>
+                </tr>
+                <tr>
+                    <td class="col-md-4 text-dark">Cesta Produtos</td>
+                    <td class="col-md-4 text-dark">R$ 18,00</td>
+                    <td class="col-md-4 text-dark">Contratado em 19/02/2020</td>
+                </tr>
+                <tr>
+                    <td class="col-md-4 text-dark">Cesta Produtos</td>
+                    <td class="col-md-4 text-dark">R$ 18,00</td>
+                    <td class="col-md-4 text-dark">Contratado em 19/02/2020</td>
+                </tr>
+                </tbody>
+            </table>
+            <button type="button" class="btn btn-dark float-end">ADICIONAR SERVIÇO</button>
+        </div>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+
+  <footer>
+    <div class="container-fluid fixed-bottom fundo">
+        <p>Todos os direitos reservados. Eu Patroa 2022  &copy;</p>
+    </div>
+  </footer>
+</html>
