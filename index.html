@@ -28,18 +28,41 @@
                                 <input type="password" class="form-control" id="formGroupInputPassword" placeholder="sua melhor senha aqui">
                             </div>
                             <div class="mb-3">
-                                <a href="#" type="url" class="recuperar-senha">Esqueci minha senha</a>
+                                <button type="button" class="btn btn-sm btn-outline-light" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Esqueci minha senha</button>
+                                
                             </div>
                             <div class="mb-3">
-                                <a href="./cadastro.html" type="url" class="recuperar-senha">Nova por aqui, quero me cadastrar!</a>
+                                <a href="./Pages/cadastro.html" type="url" class="recuperar-senha">Nova por aqui, quero me cadastrar!</a>
                             </div>
                             <div class="mb-3">
-                                <a href="./home.html" type="image" class="botao-login"><img src="./Assets/imagens/botao-login.png" alt="Botão Entrar" class="botao-login float-end"/></a>
+                                <a href="./Pages/home.html" type="image" class="botao-login"><img src="./Assets/imagens/botao-login.png" alt="Botão Entrar" class="botao-login float-end"/></a>
                             </div>
                         </form>
                     </div>
                 </div>
             </div>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content" >
+                    <div class="modal-header bg-light">
+                      <h5 class="modal-title bg-light" id="exampleModalLabel">Recuperar senha</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body bg-light mt-0">
+                      <form class="bg-light">
+                        <p class="text-dark text-center bg-light">Informe o email cadastrado na plataforma para envio do link de recuperação de senha.</p>  
+                        <div class="mb-3 bg-light">
+                          <label for="recipient-name" class="col-form-label mb-2 bg-light">Email:</label>
+                          <input type="email" class="form-control bg-light" id="recipient-email">
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="submit" class="btn btn-dark text-white" data-bs-dismiss="modal">Enviar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
         </main>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     </body>

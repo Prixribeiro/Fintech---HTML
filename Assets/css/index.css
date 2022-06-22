@@ -31,6 +31,10 @@ form {
     background-color: #100c09;
 }
 
+#modal-color{
+    background-color: #ccc;
+}
+
 footer{
     color: #b98883;
     font-family: Verdana, Geneva, Tahoma, sans-serif;

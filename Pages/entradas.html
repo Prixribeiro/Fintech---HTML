@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
-    <title>Eu Patroa - Serviços Contratados</title>
-    <link rel="stylesheet" type="text/css" href="./Assets/css/reset.css" />
-    <link rel="stylesheet" type="text/css" href="./Assets/css/home.css" />
+    <title>Eu Patroa - Entradas</title>
+    <link rel="stylesheet" type="text/css" href="../Assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="../Assets/css/home.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="icon" type="image/x-icon" href="./Assets/imagens/logo-eupatroa.png" />
+    <link rel="icon" type="image/x-icon" href="../Assets/imagens/logo-eupatroa.png" />
   </head>
 
   <body>
@@ -19,7 +19,7 @@
                 <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
             </svg> 
         </a>
-        <a class="nav-link" href="./servicos.html">SERVIÇOS CONTRATADOS</a>
+        <a class="nav-link" href="./saidas.html">ENTRADAS</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -34,30 +34,30 @@
                 <a class="nav-link active" aria-current="page" href="./home.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Dashboard</a>
+                <a class="nav-link" href="./relatorio.html">Dashboard</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Investimentos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Relatórios</a>
+                <a class="nav-link" href="./investimento.html">Investimentos</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Cadastrar
+                  Movimentações
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                  <li><a class="dropdown-item" href="#">Cadastrar Conta Bancária</a></li>
-                  <li><a class="dropdown-item" href="#">Cadastrar Entradas</a></li>
-                  <li><a class="dropdown-item" href="./saidas.html">Cadastrar Saídas</a></li>
+                  <li><a class="dropdown-item" href="./conta.html">Conta Bancária</a></li>
+                  <li><a class="dropdown-item" href="./entradas.html">Entradas</a></li>
+                  <li><a class="dropdown-item" href="./saidas.html">Saídas</a></li>
                   <li>
                     <hr class="dropdown-divider">
                   </li>
-                  <li><a class="dropdown-item" href="./servicos.html">Consultar Serviços contratados</a></li>
+                  <li><a class="dropdown-item" href="./servicos.html">Serviços contratados</a></li>
                 </ul>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Sair</a>
+              </li>
           </div>
-          <button type="button" class="btn-close" aria-label="Close">Sair</button>
+          <button type="button" class="btn-close" aria-label="Close">Fechar</button>
         </div>
       </div>
     </nav>
@@ -66,45 +66,43 @@
             <table class=" table table-responsive w-100 h-auto text-center shadow p-3 mb-5 bg-body rounded">
                 <thead class="table-light">
                 <tr>
-                    <th class="col-md-4 text-dark">ITEM</th>
-                    <th class="col-md-4 text-dark">VALOR MÊS</th>
-                    <th class="col-md-4 text-dark ">INFORMAÇÕES</th>
+                    <th class="col-md-3 text-dark">DATA</th>
+                    <th class="col-md-3 text-dark">ITEM</th>
+                    <th class="col-md-3 text-dark ">VALOR</th>
+                    <th class="col-md-3 text-dark "><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-info-circle-fill" viewBox="0 0 16 16">
+                        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+                      </svg>
+                    </th>
                 </tr>
                 </thead>
                 <tbody class="table-group-divider text-dark">
                 <tr>
-                    <td class="col-md-4 text-dark">Seguro Cartão</td>
-                    <td class="col-md-4 text-dark">R$ 10,00</td>
-                    <td class="col-md-4 text-dark">Contratado em 10/07/2021</td>
+                    <td class="col-md-3 text-dark">07/04/2022</td>
+                    <td class="col-md-3 text-dark">Americanas</td>
+                    <td class="col-md-3 text-dark">R$ 60,00</td>
+                    <td class="col-md-3 text-dark">Reembolso no cartão de crédito</td>
                 </tr>
                 <tr>
-                    <td class="col-md-4 text-dark">LIS Conta</td>
-                    <td class="col-md-4  text-dark">R$ 22,50</td>
-                    <td class="col-md-4 text-dark">Recorrente desde 09/06/2003</td>
+                    <td class="col-md-3 text-dark">13/04/2022</td>
+                    <td class="col-md-3 text-dark">Farmácia</td>
+                    <td class="col-md-3 text-dark">R$ 6,00</td>
+                    <td class="col-md-3 text-dark">Reembolso no cartão de crédito</td>
                 </tr>
                 <tr>
-                    <td class="col-md-4 text-dark">Cesta Produtos</td>
-                    <td class="col-md-4 text-dark">R$ 18,00</td>
-                    <td class="col-md-4 text-dark">Contratado em 19/02/2020</td>
+                    <td class="col-md-3 text-dark">05/05/2022</td>
+                    <td class="col-md-3 text-dark">Magazine Luiza</td>
+                    <td class="col-md-3 text-dark">R$ 160,00</td>
+                    <td class="col-md-3 text-dark">Cashback</td>
                 </tr>
                 <tr>
-                    <td class="col-md-4 text-dark">Cesta Produtos</td>
-                    <td class="col-md-4 text-dark">R$ 18,00</td>
-                    <td class="col-md-4 text-dark">Contratado em 19/02/2020</td>
-                </tr>
-                <tr>
-                    <td class="col-md-4 text-dark">Cesta Produtos</td>
-                    <td class="col-md-4 text-dark">R$ 18,00</td>
-                    <td class="col-md-4 text-dark">Contratado em 19/02/2020</td>
-                </tr>
-                <tr>
-                    <td class="col-md-4 text-dark">Cesta Produtos</td>
-                    <td class="col-md-4 text-dark">R$ 18,00</td>
-                    <td class="col-md-4 text-dark">Contratado em 19/02/2020</td>
+                    <td class="col-md-3 text-dark">10/05/2022</td>
+                    <td class="col-md-3 text-dark">Empréstimo - irmã</td>
+                    <td class="col-md-3 text-dark">R$ 260,00</td>
+                    <td class="col-md-3 text-dark">Devolução em dinheiro na C/C</td>
                 </tr>
                 </tbody>
             </table>
-            <button type="button" class="btn btn-dark float-end">ADICIONAR SERVIÇO</button>
+            <button type="button" class="btn btn-dark float-end">ADICIONAR NOVA ENTRADA</button>
         </div>
     </main>
     

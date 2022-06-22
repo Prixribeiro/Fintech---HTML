@@ -48,3 +48,7 @@ footer p {
 td {
     font-size: 12px;
 }
+
+#progress-bar{
+    background-color: #b98883;
+}
